@@ -1,3 +1,4 @@
+#practice from https://www.geeksforgeeks.org/regression-classification-supervised-machine-learning/
 import sklearn 
 from sklearn import linear_model, datasets
 from sklearn.model_selection import train_test_split

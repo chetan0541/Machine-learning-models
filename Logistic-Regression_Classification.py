@@ -32,7 +32,7 @@ simplefilter(action='ignore', category=FutureWarning)
 #         #plot samples
 #         X_test, y_test = X[test_idx, :], y[test_idx]
 
-#         plt.scatter(X_test[:, 0], X_test[:, 1], c='', edgecolor='black', alpha=1.0, linewidth=1, marker ='o', s=100, label='test set')
+#        plt.scatter(X_test[:, 0], X_test[:, 1], c='', edgecolor='black', alpha=1.0, linewidth=1, marker ='o', s=100, label='test set')
 
 
 iris = datasets.load_iris()
