@@ -23,7 +23,7 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 
 
-# y_pred = model.predict(X_test)
+y_pred = model.predict(X_test)
 
 # print(y_pred)
 #Plotting Training values on a scatter plot
@@ -50,9 +50,9 @@ model.fit(X_train, y_train)
 # model = sm.OLS(y_train, X_train).fit()
 # print(model.summary())
 
-# plt.scatter(X_test, y_test, color = 'red')
-# plt.plot(X_test, y_pred, color= 'black')
-# plt.title('Salary and Experience Relationship(Test Set)')
-# plt.xlabel('Years of Experience')
-# plt.ylabel('Salary')
-# plt.show()
+plt.scatter(X_test, y_test, color = 'red')
+plt.plot(X_test, y_pred, color= 'black')
+plt.title('Salary and Experience Relationship(Test Set)')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
+plt.show()
